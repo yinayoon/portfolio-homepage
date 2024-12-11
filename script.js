@@ -12,9 +12,9 @@ document.getElementById('showVideo1').addEventListener('click', () => {
   projectInfo.innerHTML = `
     <h3>프로젝트 정보</h3>
     <ul>
-      <li><strong>제작 년도:</strong> 2017</li>
-      <li><strong>제작 기간:</strong> 4개월</li>
-      <li><strong>재생 길이:</strong> 2분 49초</li>
+      <li><strong>제작 년도 :</strong> 2017</li>
+      <li><strong>제작 기간 :</strong> 4개월</li>
+      <li><strong>재생 길이 :</strong> 2분 49초</li>
     </ul>
     <h4>활용 미디어 소프트웨어</h4>
     <ul>
@@ -35,9 +35,9 @@ document.getElementById('showVideo2').addEventListener('click', () => {
   projectInfo.innerHTML = `
     <h3>현대건설기술교육원 강의를 위해 개발한 첫 번째 예제 게임입니다.</h3>
     <ul>
-      <li><strong>게임 룰: </strong> 포크레인이 20초 안에 골인 지점에 도달해야 함</li>
-      <li><strong>이동:</strong>  W(앞), S(뒤), D(오른쪽), A(왼쪽)</li>
-      <li><strong>재시작 방법:</strong> Space bar</li>
+      <li><strong>게임 룰 : </strong> 포크레인이 20초 안에 골인 지점에 도달해야 함</li>
+      <li><strong>이동 :</strong>  W(앞), S(뒤), D(오른쪽), A(왼쪽)</li>
+      <li><strong>재시작 방법 :</strong> Space bar</li>
     </ul>
     <button class="link-button" onclick="window.open('https://github.com/yinayoon/Example-01-Driving-Poclain', '_blank')">GITHUB</button>
   `;
@@ -53,8 +53,8 @@ document.getElementById('showVideo3').addEventListener('click', () => {
   projectInfo.innerHTML = `
     <h3>현대건설기술교육원 강의를 위해 개발한 두 번째 예제 게임입니다.</h3>
     <ul>
-      <li><strong>게임 룰: </strong> 마우스로 컨트롤하여 공간을 살펴보고 원하는 센서의 데이터를 확인 (건설 시공 환경 데이터는 - Json 데이터에서 추출함)</li>
-      <li><strong>이동:</strong> 마우스 컨트롤 및 Space bar로 회전 및 위치 초기화</li>
+      <li><strong>게임 룰 : </strong> 마우스로 컨트롤하여 공간을 살펴보고 원하는 센서의 데이터를 확인 (건설 시공 환경 데이터는 - Json 데이터에서 추출함)</li>
+      <li><strong>이동 :</strong> 마우스 컨트롤 및 Space bar로 회전 및 위치 초기화</li>
     </ul>
     <button class="link-button" onclick="window.open('https://github.com/yinayoon/Example-02-Digital-Twin', '_blank')">GITHUB</button>
   `;
@@ -70,8 +70,8 @@ document.getElementById('showVideo4').addEventListener('click', () => {
   projectInfo.innerHTML = `
     <h3>현대건설기술교육원 강의를 위해 개발한 세 번째 예제 게임입니다.</h3>
     <ul>
-      <li><strong>게임 룰: </strong> 드론이 제한시간 동안 비트 코인을 수집</li>
-      <li><strong>이동:</strong> W(앞), S(뒤), D(오른쪽), A(왼쪽), E(위), Q(아래)</li>
+      <li><strong>게임 룰 : </strong> 드론이 제한시간 동안 비트 코인을 수집</li>
+      <li><strong>이동 :</strong> W(앞), S(뒤), D(오른쪽), A(왼쪽), E(위), Q(아래)</li>
       <li><strong>재시작 방법:</strong> Space bar</li>
     </ul>
     <button class="link-button" onclick="window.open('https://github.com/yinayoon/Example-03-Driving-Drone', '_blank')">GITHUB</button>
@@ -88,7 +88,7 @@ document.getElementById('showVideo5').addEventListener('click', () => {
   projectInfo.innerHTML = `
     <h3>현대건설기술교육원 강의를 위해 개발한 네 번째 예제 게임입니다.</h3>
     <ul>
-      <li><strong>내용: </strong> 스마트폰 환경에서 로봇의 애니메이션을 AR 형태로 확인할 수 있음 (Vuforia 홈페이지에서 Vuforia Engine SDK를 다운 받아 Unity Editor에 import하여야 함, Vuforia Engine 10.27버전 사용)</li>
+      <li><strong>내용 :</strong> 스마트폰 환경에서 로봇의 애니메이션을 AR 형태로 확인할 수 있음 (Vuforia 홈페이지에서 Vuforia Engine SDK를 다운 받아 Unity Editor에 import하여야 함, Vuforia Engine 10.27버전 사용)</li>
     </ul>
     <button class="link-button" onclick="window.open('https://github.com/yinayoon/Example-04-AR-Sphere-Robot', '_blank')">GITHUB</button>
   `;
@@ -104,10 +104,10 @@ document.getElementById('showVideo6').addEventListener('click', () => {
   projectInfo.innerHTML = `
     <h3>현대건설기술교육원 강의를 위해 개발한 다 번째 예제 게임입니다.</h3>
     <ul>
-      <li><strong>게임 룰: </strong> 드론이 제한시간 동안 파랑, 초록, 빨강의 링을 통과하여 점수를 얻는 게임 (파랑 : 5점, 초록 : 3점, 빨강 : 1점 / 현재 영상에는 거꾸로 되어 있으나 Github의 코드에는 수정되어 업로드되어 있음)</li>
-      <li><strong>이동:</strong> Meta Quest 2 Controller Thumbstick (앞,뒤,오른쪽,왼쪽), Trigger(위), Grip(아래)</li>
-      <li><strong>재시작 방법:</strong> 왼쪽 컨트롤러 Y버튼, 오른쪽 컨트롤러 B버튼</li>
-      <li><strong>HMD 장비:</strong>  메타 퀘스트 2</li>
+      <li><strong>게임 룰 : </strong> 드론이 제한시간 동안 파랑, 초록, 빨강의 링을 통과하여 점수를 얻는 게임 (파랑 : 5점, 초록 : 3점, 빨강 : 1점 / 현재 영상에는 거꾸로 되어 있으나 Github의 코드에는 수정되어 업로드되어 있음)</li>
+      <li><strong>이동 :</strong> Meta Quest 2 Controller Thumbstick (앞,뒤,오른쪽,왼쪽), Trigger(위), Grip(아래)</li>
+      <li><strong>재시작 방법 :</strong> 왼쪽 컨트롤러 Y버튼, 오른쪽 컨트롤러 B버튼</li>
+      <li><strong>HMD 장비 :</strong>  메타 퀘스트 2</li>
     </ul>
     <button class="link-button" onclick="window.open('https://github.com/yinayoon/Example-05-VR-Driving-Drone', '_blank')">GITHUB</button>
   `;
