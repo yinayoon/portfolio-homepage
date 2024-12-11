@@ -120,30 +120,16 @@ main {
   flex-direction: column;
 }
 
-/* 팝업 닫기 버튼 스타일 */
 .close-btn {
   position: absolute;
   top: 10px;
   right: 10px;
-  background: none; /* 배경색 없음 */
-  border: none; /* 테두리 없음 */
-  font-size: 24px; /* 글자 크기 */
-  font-weight: bold; /* 글자 굵게 */
-  cursor: pointer; /* 마우스 포인터 변경 */
-  color: #ff0000; /* 빨간색 텍스트 */
-  z-index: 1001; /* 버튼이 팝업 위에 표시되도록 */
-  transition: transform 0.2s, color 0.2s; /* 클릭 애니메이션 */
-}
-
-/* 호버 시 색상 및 크기 변경 */
-.close-btn:hover {
-  color: #ff4500; /* 호버 시 밝은 빨간색 */
-  transform: scale(1.2); /* 약간 확대 */
-}
-
-/* 포커스 시 스타일 */
-.close-btn:focus {
-  outline: none; /* 기본 포커스 테두리 제거 */
+  background: #000;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: white;
+  z-index: 1001;
 }
 
 iframe {
