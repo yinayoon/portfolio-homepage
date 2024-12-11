@@ -221,7 +221,7 @@ document.getElementById('showVideo12').addEventListener('click', () => {
 // 연세대학교 영상 버튼 클릭 이벤트
 document.getElementById('showVideo13').addEventListener('click', () => {
   // 팝업에 YouTube URL 설정
-  popupIframe.src = 'https://www.youtube.com/embed/lSeFzNc18yA?start=174';
+  popupIframe.src = 'https://www.youtube.com/embed/lSeFzNc18yA';
   // 팝업에 프로젝트 정보 추가
   projectInfo.innerHTML = `
     <h3>시니어를 위한 디지털 컴페니언 VR 콘텐츠 개발</h3>
