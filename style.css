@@ -124,11 +124,11 @@ main {
   position: absolute;
   top: 10px;
   right: 10px;
-  background: none;
+  background: #000;
   border: none;
   font-size: 24px;
   cursor: pointer;
-  color: #000;
+  color: white;
   z-index: 1001;
 }
 
