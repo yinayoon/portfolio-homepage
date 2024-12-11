@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Homepage</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- 헤더 영역 -->
+  <header>
+    <h1>INA's Page</h1>
+    <nav>
+      <ul class="menu">
+        <li><a href="#education">학력</a></li>
+        <li><a href="#career">경력</a></li>
+        <li><a href="#papers">논문</a></li>
+        <li><a href="#certifications">자격증</a></li>
+        <li><a href="#languages">어학</a></li>
+        <li><a href="https://github.com/yinayoon" target="_blank">GitHub</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- 프로필 영역 -->
+  <div class="profile">
+    <img src="profile.jpg" alt="증명 사진" class="profile-photo">
+    <div class="profile-info">
+      <h1>윤이나</h1>
+      <p><strong>생년월일 :</strong> 1988.10.07</p>
+      <p><strong>관심분야 :</strong> XR, 메타버스, 디지털트윈</p>      
+      <p><strong>이메일 :</strong> yina1988@naver.com</p>
+    </div>
+  </div>
+
+  <!-- 학업 섹션 -->
+  <main>
+    <!-- 학력 섹션 -->
+    <section id="education">
+      <h2 id="education-title" class="highlight-title">
+        <span>🎓 학력</span>
+      </h2>
+  
+      <!-- 서강대학교 -->
+      <h3>서강대학교 영상대학원 (석사)</h3>
+      <ul>
+        <li><strong>전공 :</strong> 문화콘텐츠</li>
+        <li><strong>재학 기간 :</strong>: 2015.09 ~ 2017.08 (졸업)</li>
+        <li><strong>지역 :</strong> 서울</li>
+        <li><strong>학점 :</strong> 4.3/4.5</li>
+        <li><strong>주/야간 :</strong> 주간</li>
+        <li><strong>논문/작품 :</strong> 디지털 영상콘텐츠 <em>The War of Future</em> 디자인 및 제작  
+          <br>소규모 제작 환경에서 미디어 소프트웨어를 이용한 디지털 영상 콘텐츠 제작
+        </li>
+      </ul>
+      <!-- 졸업작품 및 논문 버튼 -->
+      <button id="showVideo1">졸업작품</button>
+      <button class="link-button" onclick="window.open('https://www.riss.kr/search/detail/DetailView.do?p_mat_type=be54d9b8bc7cdb09&control_no=e4e20ef1b87a4e15ffe0bdc3ef48d419&keyword=%EC%9C%A4%EC%9D%B4%EB%82%98%20%EC%84%9C%EA%B0%95%EB%8C%80%ED%95%99%EA%B5%90', '_blank')">졸업논문</button>
+  
+      <!-- 경희대학교 -->
+      <h3>경희대학교 대학원 (박사) - 중퇴</h3>
+      <ul>
+        <li><strong>전공 :</strong> KHU-KIST 융합과학기술학</li>
+        <li><strong>재학 기간 :</strong> 2024.03 ~ 2024.07</li>
+        <li><strong>지역 :</strong> 서울</li>
+        <li><strong>학점 :</strong> 4.3/4.5</li>
+        <li><strong>주/야간 :</strong> 주간</li>
+      </ul>
+  
+      <!-- 호서대학교 -->
+      <h3>호서대학교 (4년제)</h3>
+      <ul>
+        <li><strong>전공 :</strong> 애니메이션</li>
+        <li><strong>재학 기간 :</strong> 2009.02 ~ 2015.02</li>
+        <li><strong>지역 :</strong> 충북</li>
+        <li><strong>학점 :</strong> 3.2/4.5</li>
+        <li><strong>주/야간 :</strong> 주간</li>
+      </ul>
+  
+      <!-- 학점은행대학 -->
+      <h3>학점은행대학 (2·3년제)</h3>
+      <ul>
+        <li><strong>전공 :</strong> 디지털 애니메이션</li>
+        <li><strong>재학 기간 :</strong> 2007.02 ~ 2009.02</li>
+        <li><strong>지역 :</strong> 서울</li>
+        <li><strong>학점 :</strong> 3.8/4.5</li>
+        <li><strong>주/야간 :</strong> 주간</li>
+      </ul>
+    </section>
+  </main>
+
+<!-- 경력 섹션 -->
+   <main>
+    <section id="career">
+      <h2 class="highlight-title">
+        <span>💼 경력</span>
+      </h2>  
+
+      <h3>경력 개발 기간</h3>
+      <ul>
+        <li><strong>직책 :</strong> 경력 휴식기</li>
+        <li><strong>기간 :</strong> 2024.10 ~ 2024.12 (3개월)</li>
+        <li><strong>업무내용 :</strong> 현대건설기술교육원 강의 준비</li>
+        <li><strong>주요 과제 :</strong> 교안 및 교육 콘텐츠 제작         
+          <ul>
+            <li>(강의 실습 예제 개발 1) 드라이빙 포크레인</li>
+            <li>(강의 실습 예제 개발 2) 디지털트윈</li>
+            <li>(강의 실습 예제 개발 3) 드라이빙 드론</li>
+            <li>(강의 실습 예제 개발 4) 로봇 AR</li>
+            <li>(강의 실습 예제 개발 5) 드라이빙 드론 VR</li>
+          </ul>
+        </li>
+      </ul>
+      <button id="showVideo2">예제 영상 1</button>
+      <button id="showVideo3">예제 영상 2</button>
+      <button id="showVideo4">예제 영상 3</button>
+      <button id="showVideo5">예제 영상 4</button>
+      <button id="showVideo6">예제 영상 5</button>
+
+      <!-- 한국과학기술연구원 -->
+      <h3>한국과학기술연구원 (KIST)</h3>
+      <ul>
+        <li><strong>직책 :</strong> 인공지능 연구단 · 학연특화과정생</li>
+        <li><strong>근무기간 :</strong> 2024.03 ~ 2024.07 (5개월)</li>
+        <li><strong>근무지역 :</strong> 서울</li>
+        <li><strong>업무내용 :</strong>
+          <ul>
+            <li>Unity와 HTC VIVE PRO EYE를 활용한 Eye Tracking 기반 연구실 특허 구현</li>
+            <li>Unity Engine으로 홀로그래픽 입체영상 콘텐츠 제작</li>
+            <li>경희대학교 융합과학기술학과 학연(박사) 과정 수행 (100% 장학금)</li>
+          </ul>
+        </li>
+      </ul>
+
+      <!-- 한국전자기술연구원 -->
+      <h3>한국전자기술연구원 (KETI)</h3>
+      <ul>
+        <li><strong>직책 :</strong> 에너지 IT 융합 연구 센터 · 위촉연구원</li>
+        <li><strong>근무기간 :</strong> 2020.11 ~ 2023.09 (2년 11개월)</li>
+        <li><strong>근무지역 :</strong> 경기</li>
+        <li><strong>업무내용 :</strong> 디지털 트윈 3D 가시화 응용 소프트웨어 개발</li>
+        <li><strong>주요 과제 :</strong>
+          <ul>
+            <li>(R)공장 에너지관리 시스템(FEMS) 보급형 표준 플랫폼 개발 및 실증</li>
+            <li>안전한 실내 스포츠 활동을 위한 지능형 실내 환경 및 안전 관리 기술 개발</li>
+            <li>자율운전 기반 지능형 건물 에너지·환경 통합 관리 시스템 (iBEEMS) 개발</li>
+          </ul>
+        </li>
+      </ul>
+      <button id="showVideo7">영상 1</button>
+      <button id="showVideo8">영상 2</button>
+      <button id="showVideo9">영상 3</button>
+      <button id="showVideo10">영상 4</button>
+
+      <!-- 한양대학교 산학협력단 -->
+      <h3>한양대학교 산학협력단</h3>
+      <ul>
+        <li><strong>직책 :</strong> 의료디지털융합연구실 · 연구원</li>
+        <li><strong>근무기간 :</strong> 2020.04 ~ 2020.11 (8개월)</li>
+        <li><strong>근무지역 :</strong> 서울</li>
+        <li><strong>업무내용 :</strong>
+          <ul>
+            <li>다중감각 VR/AR 환경 및 콘텐츠 구현</li>
+            <li>정신질환 디지털 신약 개발 프로젝트 참여</li>
+          </ul>
+        </li>
+      </ul>
+      <button id="showVideo11">영상</button>
+    
+      <!-- 한국전자기술연구원 (VR/AR 연구센터) -->
+      <h3>한국전자기술연구원 (VR/AR 연구센터)</h3>
+      <ul>
+        <li><strong>직책 :</strong> VR/AR 연구센터 · 위촉연구원</li>
+        <li><strong>근무기간 :</strong> 2018.11 ~ 2020.01 (1년 3개월)</li>
+        <li><strong>근무지역 :</strong> 서울</li>
+        <li><strong>업무내용 :</strong> VR 콘텐츠 개발 및 연구 과제 실험 지원</li>
+        <li><strong>주요 과제 :</strong>
+          <ul>
+            <li>실감형 과학 문화전시 VR 콘텐츠 개발</li>
+          </ul>
+        </li>
+      </ul>
+      <button id="showVideo12">영상</button>
+    
+      <!-- 연세대학교 산학협력단 -->
+      <h3>연세대학교 산학협력단</h3>
+      <ul>
+        <li><strong>직책 :</strong> 기술과 디자인 연구센터 · 연구원</li>
+        <li><strong>근무기간 :</strong> 2018.04 ~ 2018.10 (7개월)</li>
+        <li><strong>근무지역 :</strong> 경기</li>
+        <li><strong>업무내용 :</strong>
+          <ul>
+            <li>디지털 컴페니언 VR 콘텐츠 설계 및 개발</li>
+            <li>시니어 대상 설문 연구 지원</li>
+          </ul>
+        </li>
+      </ul>
+      <button id="showVideo13">영상</button>
+    </section>
+</main>
+
+<!-- 논문 섹션 -->
+<main>
+  <section id="papers">
+    <h2 class="highlight-title">
+      <span>📄 논문</span>
+    </h2>
+
+    <!-- 논문 1 -->
+    <div class="paper">
+      <h3>태양계 천체 관찰 가상 현실 콘텐츠 구현</h3>
+      <ul>
+        <li><strong>행사명 :</strong> 영상처리 및 이해에 관한 워크샵 (IPIU)</li>
+        <li><strong>학회 기간 :</strong> 2019년 02월 13일 ~ 15일</li>
+        <li><strong>논문 요약 :</strong> 유니티 프로그램을 사용하여 태양계 천체를 관찰할 수 있는 3차원 가상현실 콘텐츠를 구현. HMD를 활용하여 자전, 공전, 공간 이동 및 정보 확인이 가능한 콘텐츠 개발.</li>
+      </ul>
+    </div>
+
+    <!-- 논문 2 -->
+    <div class="paper">
+      <h3>실감형 과학문화 전시를 위한 가상현실 콘텐츠 구현</h3>
+      <ul>
+        <li><strong>행사명 :</strong> 통신정보 합동학술대회 (JCCI)</li>
+        <li><strong>학회 기간 :</strong> 2019년 05월 01일 ~ 03일</li>
+        <li><strong>논문 요약 :</strong> VR을 활용한 천체 관람 콘텐츠 개발. 별자리 선택, 라인 애니메이션, 정보 확인 등 인터랙션을 통해 몰입감 있는 과학 전시 콘텐츠 구현.</li>
+      </ul>
+    </div>
+
+    <!-- 논문 3 -->
+    <div class="paper">
+      <h3>키넥트 디바이스를 활용한 천체관찰 콘텐츠 개발</h3>
+      <ul>
+        <li><strong>행사명 :</strong> 한국통신학회 하계종합학술발표회 (KICS)</li>
+        <li><strong>학회 기간 :</strong> 2019년 06월 19일 ~ 21일</li>
+        <li><strong>논문 요약 :</strong> 키넥트 센서를 활용하여 관절 모션 데이터를 분석하고 유니티를 통해 인터랙티브 콘텐츠 제작. 이동 거리 계산 수식을 기반으로 모션 데이터를 활용.</li>
+      </ul>
+      <button onclick="window.open('https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE09234761', '_blank')">논문 보기</button>
+    </div>
+
+    <!-- 논문 4 -->
+    <div class="paper">
+      <h3>립모션 디바이스를 활용한 실감콘텐츠 개발</h3>
+      <ul>
+        <li><strong>행사명 :</strong> 제9회 국제과학관심포지엄 (ISSM)</li>
+        <li><strong>학회 기간 :</strong> 2019년 11월 07일 ~ 08일</li>
+        <li><strong>논문 요약 :</strong> 립모션 디바이스를 활용한 실감 콘텐츠 개발. 손과 손가락의 동작을 인식하여 이벤트 실행 및 이동거리 계산 알고리즘 적용.</li>
+      </ul>
+    </div>
+
+    <!-- 논문 5 -->
+    <div class="paper">
+      <h3>신경퇴행성 질환 환자 대상 HMD 시선추적의 활용</h3>
+      <ul>
+        <li><strong>행사명 :</strong> 한국통신학회 하계종합학술발표회 (KICS)</li>
+        <li><strong>학회 기간 :</strong> 2020년 08월 12일 ~ 14일</li>
+        <li><strong>논문 요약 :</strong> HMD를 활용한 VR 콘텐츠 개발. 시선 추적 및 눈 깜빡임을 통한 공간 이동, 선호도 조사 등 기능 구현.</li>
+      </ul>
+      <button onclick="window.open('https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10498634', '_blank')">논문 보기</button>
+    </div>
+
+    <!-- 논문 6 -->
+    <div class="paper">
+      <h3>HMD를 활용한 조현병(환청) 증상 평가 콘텐츠 개발</h3>
+      <ul>
+        <li><strong>행사명 :</strong> 한국통신학회 하계종합학술발표회 (KICS)</li>
+        <li><strong>학회 기간 :</strong> 2020년 08월 12일 ~ 14일</li>
+        <li><strong>논문 요약 :</strong> HMD를 활용한 조현병 환청 증상 평가 콘텐츠 개발. N-Back 훈련 및 분석 데이터를 CSV로 출력하는 기능 제공.</li>
+      </ul>
+      <button onclick="window.open('https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10498635', '_blank')">논문 보기</button>
+    </div>
+
+    <!-- 논문 7 -->
+    <div class="paper">
+      <h3>에너지 관리 시스템을 위한 3차원 가시화 애플리케이션 개발</h3>
+      <ul>
+        <li><strong>행사명 :</strong> 한국통신학회 하계종합학술발표회 (KICS)</li>
+        <li><strong>학회 기간 :</strong> 2021년 06월 16일 ~ 18일</li>
+        <li><strong>논문 요약 :</strong> 3D 재구성 소프트웨어 및 Blender를 활용하여 공간을 모델링. 유니티에서 Json 데이터를 가시화하고 GUI를 구성하여 에너지 소비 상황을 사용자 친화적으로 표시.</li>
+      </ul>
+      <button onclick="window.open('https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10587206', '_blank')">논문 보기</button>
+    </div>
+
+    <!-- 논문 8 -->
+    <div class="paper">
+      <h3>3차원 공간 기반 에너지 관리 시스템 애플리케이션 개발</h3>
+      <ul>
+        <li><strong>행사명 :</strong> 한국통신학회 추계종합학술발표회 (KICS)</li>
+        <li><strong>학회 기간 :</strong> 2021년 11월 17일 ~ 19일</li>
+        <li><strong>논문 요약 :</strong> Azure Kinect DK와 RTABMap을 사용하여 3차원 공간을 복원. 복원된 공간 안에 센서 모델을 배치하여 다양한 데이터 시각화.</li>
+      </ul>
+      <button onclick="window.open('https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11022859', '_blank')">논문 보기</button>
+    </div>
+
+    <!-- 논문 9 -->
+    <div class="paper">
+      <h3>실내 환경 모니터링 메타버스 서비스 개발</h3>
+      <ul>
+        <li><strong>행사명 :</strong> 한국생활환경학회 추계학술대회 (KSLES)</li>
+        <li><strong>학회 기간 :</strong> 2021년 12월 10일</li>
+        <li><strong>논문 요약 :</strong> 실시간 센서 데이터를 3D 공간에 가시화한 메타버스 서비스 개발. Unity Engine과 Azure Kinect DK를 활용하여 자동 및 수동 관리 모드 제공.</li>
+        <li><strong>URL :</strong> 없음</li>
+      </ul>
+    </div>
+
+    <!-- 논문 10 -->
+    <div class="paper">
+      <h3>유니티 엔진을 활용한 재실자 이동경로 가시화 애플리케이션 개발</h3>
+      <ul>
+        <li><strong>행사명 :</strong> 한국통신학회 추계종합학술발표회 (KICS)</li>
+        <li><strong>학회 기간 :</strong> 2022년 06월 22일 ~ 24일</li>
+        <li><strong>논문 요약 :</strong> 딥러닝 기반 YOLOX를 사용하여 재실자 동선 데이터를 추출하고 Unity를 통해 이동 경로를 가시화. 애니메이션을 적용하여 동선 관리 콘텐츠 구현.</li>
+      </ul>
+      <button onclick="window.open('https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11107897', '_blank')">논문 보기</button>
+    </div>
+
+    <!-- 논문 11 -->
+    <div class="paper">
+      <h3>실내 에너지 관리를 위한 디지털트윈 메타버스 서비스 개발</h3>
+      <ul>
+        <li><strong>행사명 :</strong> 한국생활환경학회 추계학술대회 (KSLES)</li>
+        <li><strong>학회 기간 :</strong> 2022년 12월 02일</li>
+        <li><strong>논문 요약 :</strong> 센서 데이터를 가시화한 디지털 트윈 메타버스 서비스 개발. Unity와 WebGL을 활용하여 사용자 친화적인 인터페이스 구현.</li>
+      </ul>
+    </div>
+
+  </section>
+</main>
+
+<!-- 자격증 및 어학 섹션 -->
+   <!-- 자격증 섹션 -->
+<main>
+  <section id="certifications">
+    <h2 class="highlight-title">
+      <span>📜 자격증</span>
+    </h2>
+    <ul>
+      <li>
+        <strong>게임그래픽전문가</strong>
+        <ul>
+          <li><strong>취득일 :</strong> 2008.12</li>
+          <li><strong>발급기관 :</strong> 한국산업인력공단</li>
+          <li><strong>결과 :</strong> 최종합격</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+</main>
+
+  <!-- 어학 섹션 -->
+<main>
+  <section id="languages">
+    <h2 class="highlight-title">
+      <span>🌐 어학</span>
+    </h2>
+    <ul>
+      <li>
+        <strong>TOEIC</strong>
+        <ul>
+          <li><strong>취득일 :</strong> 2023.08</li>
+          <li><strong>점수 :</strong> 730점</li>
+          <li><strong>결과 :</strong> PASS</li>
+          <li><strong>언어 :</strong> 영어</li>
+        </ul>
+      </li>
+      <li>
+        <strong>OPIC</strong>
+        <ul>
+          <li><strong>취득일 :</strong> 2023.07</li>
+          <li><strong>등급 :</strong> Intermediate Mid2급</li>
+          <li><strong>결과 :</strong> PASS</li>
+          <li><strong>언어 :</strong> 영어</li>
+        </ul>
+      </li>
+      <li>
+        <strong>캐나다 토론토 어학연수</strong>
+        <ul>
+          <li><strong>연수 기간 :</strong> 2012.10 ~ 2013.10</li>
+          <li><strong>목적 :</strong> 영어 능력 향상을 위한 연수</li>
+          <li><strong>연수 기관 :</strong> ILSC, WTC</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+</main>
+
+  <!-- 팝업 영역 -->
+  <div id="popupOverlay" class="popup">
+    <div class="popup-content">
+      <button id="closePopup" class="close-btn">&times;</button>
+      <iframe id="popupIframe" src="" frameborder="0" allowfullscreen></iframe>
+      <div id="projectInfo" class="project-info"></div>
+    </div>
+  </div>
+
+  <!-- 푸터 -->
+  <footer>
+    <div class="container">
+      <p>&copy; INA's Portfolio Page.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
