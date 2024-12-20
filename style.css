@@ -48,6 +48,14 @@
   color: #555;
 }
 
+/* 추가 정보 스타일 */
+.additional-info {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #666;
+  line-height: 1.6;
+}
+
 /* 공용 스타일 */
 body {
   font-family: Arial, sans-serif;
@@ -159,3 +167,5 @@ button, .link-button {
 button:hover, .link-button:hover {
   background-color: #005a9e;
 }
+
+

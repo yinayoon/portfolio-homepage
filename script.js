@@ -4,6 +4,30 @@ const popupIframe = document.getElementById('popupIframe');
 const projectInfo = document.getElementById('projectInfo');
 const closePopupButton = document.getElementById('closePopup');
 
+// 포트폴리오 팝업 버튼 클릭 이벤트
+document.getElementById('showVideoPortfolio1').addEventListener('click', () => {
+  // 팝업에 YouTube URL 설정
+  popupIframe.src = 'https://www.youtube.com/embed/vufE6GObhgM';
+  
+  // 팝업에 프로젝트 정보 추가
+  projectInfo.innerHTML = `
+    <h3>Car Racing</h3>
+    <p>자동차 레이싱 게임입니다.</p>
+    <ul>
+      <li><strong>게임 룰:</strong> 방향 키를 활용해 레이싱을 수행하면 됩니다.</li>
+      <li><strong>이동:</strong> 방향키 또는 W, S, A, D</li>
+      <li><strong>부스터:</strong> Z</li>
+      <li><strong>지도 확인:</strong> M</li>
+      <li><strong>드리프트:</strong> Ctrl</li>
+      <li><strong>브레이크:</strong> Shift</li>
+      <li><strong>재시작 방법:</strong> 스페이스바</li>
+    </ul>
+  `;
+  
+  // 팝업 표시
+  popupOverlay.style.display = 'flex';
+});
+
 // 졸업작품 버튼 클릭 이벤트
 document.getElementById('showVideo1').addEventListener('click', () => {
   // 팝업에 YouTube URL 설정
