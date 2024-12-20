@@ -22,6 +22,8 @@ document.getElementById('showVideoPortfolio1').addEventListener('click', () => {
       <li><strong>브레이크:</strong> Shift</li>
       <li><strong>재시작 방법:</strong> 스페이스바</li>
     </ul>
+    <button onclick="window.open('https://github.com/yinayoon/Portfolio-01-Car-Racing', '_blank')">GITHUB</button>
+    <button onclick="window.open('https://drive.google.com/drive/folders/169QZmX7V9TioY-GbYG0bFToJxNr6jM5S', '_blank')">Build File</button>
   `;
   
   // 팝업 표시
