@@ -30,6 +30,36 @@ document.getElementById('showVideoPortfolio1').addEventListener('click', () => {
   popupOverlay.style.display = 'flex';
 });
 
+// 포트폴리오 팝업 버튼 클릭 이벤트
+document.getElementById('showVideoPortfolio2').addEventListener('click', () => {
+  // 팝업에 YouTube URL 설정
+  popupIframe.src = 'https://www.youtube.com/embed/i1SUyPVEAYs';
+  
+  // 팝업에 프로젝트 정보 추가
+  projectInfo.innerHTML = `
+    <h3>Car Racing</h3>
+    <p>MMO RPG 게임 입니다.</p>
+    <ul>
+      <li><strong>게임 룰:</strong> 마우스를 이용하여 이동하고 몬스터를 클릭하여 공격하면 됩니다.</li>
+      <li><strong>이동:</strong> 마우스 오른쪽 입력 (걷기/뛰기 : 키보드 R 버튼)</li>
+        <li><strong>앞으로 추가 될 기능</strong></li>
+          <ul>
+            <li>플레이어 MP 및 스킬 구현</li>
+            <li>Login Scene 구현</li>
+            <li>Save, Load 시스템 구현</li>
+            <li>법사, 아쳐 추가 및 캐릭터 선택 Scene 구현</li>
+            <li>플레이어 레벨에 맞춘 몬스터 Stat 향상</li>
+            <li>NPC, 인벤토리, 보스 몬스터 구현</li>
+            <li>퀘스트 기획 및 추가</li>
+            <li>전반적인 GUI 구현</li>
+          </ul>
+    </ul>
+  `;
+  
+  // 팝업 표시
+  popupOverlay.style.display = 'flex';
+});
+
 // 졸업작품 버튼 클릭 이벤트
 document.getElementById('showVideo1').addEventListener('click', () => {
   // 팝업에 YouTube URL 설정
