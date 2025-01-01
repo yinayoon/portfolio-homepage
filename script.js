@@ -37,7 +37,7 @@ document.getElementById('showVideoPortfolio2').addEventListener('click', () => {
   
   // 팝업에 프로젝트 정보 추가
   projectInfo.innerHTML = `
-    <h3>Car Racing</h3>
+    <h3>MMO RPG</h3>
     <p>MMO RPG 게임 입니다.</p>
     <ul>
       <li><strong>게임 룰:</strong> 마우스를 이용하여 이동하고 몬스터를 클릭하여 공격하면 됩니다.</li>
@@ -54,6 +54,7 @@ document.getElementById('showVideoPortfolio2').addEventListener('click', () => {
             <li>전반적인 GUI 구현</li>
           </ul>
     </ul>
+    <button onclick="window.open('https://github.com/yinayoon/Portfolio-02-MMORPG', '_blank')">GITHUB</button>
   `;
   
   // 팝업 표시
