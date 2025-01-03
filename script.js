@@ -186,6 +186,8 @@ document.getElementById('showVideo7').addEventListener('click', () => {
       우선 데이터를 수집하는 센서가 설치된 공간과 동일한 구조의 3차원 모델을 블랜더(Blender) 소프트웨어를 활용하여 구성하였습니다. 이후 유니티 엔진(Unity Engine)을 사용해 데이터 가시화, 사용자 인터랙션 부분을 개발하였습니다. 
       최종적으로 유니티 엔진의 크로스 플랫폼 기능을 활용해 WebGL로 빌드하였습니다.
     </p>
+    <button class="link-button" onclick="window.open('https://github.com/yinayoon/Project-Web-Energy-Management', '_blank')">GitHub</button>
+    <button class="link-button" onclick="window.open('https://yinayoon.github.io/Web-Energy-Management/', '_blank')">WebGL</button>
   `;
   // 팝업 표시
   popupOverlay.style.display = 'flex';
@@ -219,6 +221,8 @@ document.getElementById('showVideo9').addEventListener('click', () => {
     <p>
       재실자의 운동 중 안전 및 상황을 포착하기 위해 개발된 어플리케이션입니다. 웹을 통해 넘어오는 Json형식의 데이터를 C#의 Jobject, Jarray 등을 활용하여 파싱 후 이를 유니티로 가시화 합니다. 검출된 재실자별로 1초에 5개 프레임 데이터가 넘어옵니다. 또한 각각 ID 값이 있으며 딥러닝시 반복해서 재실자의 숫자와 ID값이 변하므로 이를 고려하여 개발하고 가시화 하였습니다. (영상 촬영에는 zed 카메라가 사용되었고 재실자 검출에는 YOLOZ가 활용되었습니다.) 
     </p>
+          <button class="link-button" onclick="window.open('https://github.com/yinayoon/Project-Indoor-Sports-Activity-Aware', '_blank')">GitHub</button>
+    <button class="link-button" onclick="window.open('https://yinayoon.github.io/Indoor-Sports-Activity-Aware/', '_blank')">WebGL</button>
   `;
   // 팝업 표시
   popupOverlay.style.display = 'flex';
@@ -234,6 +238,8 @@ document.getElementById('showVideo10').addEventListener('click', () => {
     <p>
       해당 애플리케이션은 사용자가 웹에서 2차원 도면을 기반으로 마우스로 박스를 그리고 이후 3차원의 공간을 만들어 보는 것을 그 목적을 둡니다. 이 애플리케이션을 활용하면 대략적인 건물의 형태, 건물의 부피 값 등을 확인 할 수 있습니다.
     </p>
+          <button class="link-button" onclick="window.open('https://github.com/yinayoon/Project-Create-Line-Box', '_blank')">GitHub</button><br>
+    <button class="link-button" onclick="window.open('https://yinayoon.github.io/Create-Line-Box/', '_blank')">WebGL</button>
   `;
   // 팝업 표시
   popupOverlay.style.display = 'flex';
