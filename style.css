@@ -168,4 +168,20 @@ button:hover, .link-button:hover {
   background-color: #005a9e;
 }
 
+/* PDF 다운로드 버튼 스타일 */
+.pdf-download-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #0078d7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+}
 
+.pdf-download-button:hover {
+  background-color: #005a9e;
+}
